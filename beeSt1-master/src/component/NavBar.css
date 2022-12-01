@@ -1,0 +1,12 @@
+.nav{
+    position: right;
+    text-align: right;
+    background-color: rgb(228, 146, 148);
+    width: 100%; 
+    z-index: 1;
+    border: 3px solid black;
+    /* border-radius: 0.8rem; */
+}
+.navCont{
+    color: rgb(24, 192, 30);
+}

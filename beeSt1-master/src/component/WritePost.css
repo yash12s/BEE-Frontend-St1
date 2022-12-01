@@ -1,0 +1,24 @@
+.contain{
+    height: 100%;
+    background-color: rgba(63, 227, 150, 0.597) ;
+    width: 100%;
+    margin-top: vh;
+    position: absolute;
+    background-image: url('https://images.pexels.com/photos/5676485/pexels-photo-5676485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    
+
+}
+
+
+.wrapper{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+      .wrapper textarea{
+        width : 400px;
+        height: 200px;
+      }
+    
+  }

@@ -1,0 +1,35 @@
+.i-sk{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background-color: rgba(160, 237, 229, 0.392);
+}
+
+ .text{
+    
+    flex: 1;
+    margin: 100px;
+ }
+ .pic{
+    
+    flex: 2;
+    width:100%;
+    height: 50;
+   
+ }
+ .pic img{
+    width: 100%;
+    height: 50%;
+ }
+
+ @media only screen and (max-width: 600px) {
+   
+   .i-sk{
+     flex-direction: column-reverse;
+   }
+   .pic{
+      display: none;
+   }
+ 
+}
+
